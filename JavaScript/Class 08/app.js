@@ -36,11 +36,23 @@ console.log("JavaScript Connected!");
 
 // greetUser();
 
-function userInfo(name = "User", age = 18, email = "user@email.com") {
+// function userInfo(name = "User", age = 18, email = "user@email.com") {
 
-    console.log("User Name : " + name);
-    console.log("User Age : " + age);
-    console.log("User Email : " + email);
+//     console.log("User Name : " + name);
+//     console.log("User Age : " + age);
+//     console.log("User Email : " + email);
+// }
+
+// userInfo("Meer", 27, "meer@gmail.com");
+
+
+
+
+function add(num1, num2) {
+    return num1 + num2
 }
 
-userInfo("Meer", 27, "meer@gmail.com");
+var result = add(40, 40);
+
+console.log(result);
+
